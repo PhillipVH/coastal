@@ -6,7 +6,7 @@ plugins {
 	id 'application'
 	id 'java'
 	id 'eclipse'
-	id 'checkstyle'
+	//id 'checkstyle'
 	id 'maven-publish'
 	id 'signing'
 	id 'com.peterabeles.gversion' version '1.5.2' // for compile-time info
@@ -77,9 +77,9 @@ sourceSets {
 // Chosen version of https://checkstyle.org/
 //------------------------------------------------------------------------------
 
-checkstyle {
-	toolVersion '8.1'
-}
+//checkstyle {
+//	toolVersion '8.1'
+//}
 
 //------------------------------------------------------------------------------
 // Fine-tuning for javadoc.
