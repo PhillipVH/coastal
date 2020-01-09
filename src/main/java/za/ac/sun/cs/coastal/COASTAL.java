@@ -98,8 +98,7 @@ public class COASTAL {
 	 */
 	private final InstrumentationClassManager classManager;
 
-	public static final String VERSION = CompileInfo.VERSION + " (" + CompileInfo.GIT_SHA.substring(0, 8) + '-'
-			+ Long.toHexString(CompileInfo.BUILD_UNIX_TIME) + ")";
+	public static final String VERSION = "symlearn";
 
 	// ======================================================================
 	//
