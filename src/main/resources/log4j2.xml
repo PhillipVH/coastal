@@ -8,7 +8,7 @@
 		<Console name="VCONSOLE" target="SYSTEM_OUT" direct="true">
       		<PatternLayout pattern="{%T} %d{HH:mm:ss.SSS} %msg%n"/>
   		</Console>
-		<RandomAccessFile name="FILE" fileName="/tmp/coastal.log" immediateFlush="false" append="false">
+		<RandomAccessFile name="FILE" fileName="/tmp/coastal-eqv.log" immediateFlush="false" append="false">
       		<PatternLayout pattern="{%T} %d{HH:mm:ss.SSS} %msg%n"/>
 		</RandomAccessFile>
 	</Appenders>
