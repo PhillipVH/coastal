@@ -121,7 +121,8 @@ public class MarkerCoverageFactory implements ObserverFactory {
 			} else {
 				marker = (String) object;
 			}
-			log.trace("{} mark hit {}", LOG_PREFIX, marker);
+			log.info("{} mark hit {}", LOG_PREFIX, marker);
+      System.exit(0);
 			Integer n = markers.get(marker);
 			if (n == null) {
 				markers.put(marker, 1);
